@@ -63,7 +63,7 @@ public class TestMainPage  {
         objMainPage.scrollToMainQwestion();
 
         driver.findElement(By.xpath(accordionLocator)).click();
-        Thread.sleep(500);
+
         //String zeroText = objMainPage.getOpenAnswerText();
         String answerText = objMainPage.getOpenAnswerText();
         Assert.assertEquals("Текст не совпал!",result, answerText );
