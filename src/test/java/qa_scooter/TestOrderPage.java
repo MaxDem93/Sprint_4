@@ -60,7 +60,7 @@ public class TestOrderPage {
         // Разернули окно
         driver.manage().window().maximize();
         // Переход на главную страницу
-        driver.get("https://qa-scooter.praktikum-services.ru/");
+        driver.get( "https://qa-scooter.praktikum-services.ru/");
         // создать объект класса главной страницы
         MainPage objMainPage = new MainPage(driver);
         // Закрыть окно про куки
